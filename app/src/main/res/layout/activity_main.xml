@@ -8,6 +8,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/saved"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jisung"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="박지성"/>
 
 
 </LinearLayout>
