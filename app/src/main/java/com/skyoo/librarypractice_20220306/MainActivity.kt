@@ -2,6 +2,7 @@ package com.skyoo.librarypractice_20220306
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bumptech.glide.Glide
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +17,10 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    
+    fun  setValues() {
+
+        Glide.with(this).load("s://namu.wiki/w/%ED%8C%8C%EC%9D%BC:GettyImages-5323678521530888060667_medium.jpg").into()
+    }
 
 
 }
